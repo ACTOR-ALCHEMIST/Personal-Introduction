@@ -23,7 +23,11 @@ import {
   jobit,
   tripguide,
   threejs,
+
 } from "../assets";
+
+import bi from "/src/assets/BiPlatform.png"
+import chatHu from "/src/assets/chatHu.png"
 
 export const navLinks = [
   {
@@ -215,7 +219,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "src/assets/chatHu.png",
+    image: chatHu,
     source_code_link: "https://gpt.hujiang.icu/",
   },
   {
@@ -236,7 +240,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "src/assets/BiPlatform.png",
+    image: bi,
     source_code_link: "https://github.com/ACTOR-ALCHEMIST/Artificial-intelligence-BI-platform",
   },
   // {
